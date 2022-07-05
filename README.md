@@ -23,3 +23,8 @@
     Build project
     ng build
     
+    Run from web server
+    Open Web Server for Chrome
+    Point folder at dist/my-app-v14
+    Open the browser at http://localhost:4200
+    
