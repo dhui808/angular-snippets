@@ -20,3 +20,6 @@
 
     The browser is open at http://localhost:4200
     
+    Build project
+    ng build
+    
