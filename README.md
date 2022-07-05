@@ -13,3 +13,10 @@
     
     Create a workspace and initial application
     ng new my-app-v14
+    
+    Run the application
+    cd my-app-v14
+    ng serve --open
+
+    The browser is open at http://localhost:4200
+    
