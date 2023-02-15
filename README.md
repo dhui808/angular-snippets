@@ -1,4 +1,12 @@
 # angular-snippets
+
+### what frameworks/APIs does Angular use to consume REST APIs?
+    HTTP client module
+        RxJS: HTTP client is built on top of RxJS, to easily manage asynchronous data streams
+        Interceptors can modify requests and responses before they are sent or received.
+        Error handling
+        Caching
+        
 ### Set up  Local development environment
     Upgrading Node.js to latest version - Windows (including npm)
       https://nodejs.org/en/download/
