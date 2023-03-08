@@ -41,3 +41,11 @@
     Point folder at dist/my-app-v14
     Open the browser at http://localhost:4200
     
+### Webpack module is not found
+    delete package-lock.json
+    delete node_modules
+    delete dist (if exist)
+
+    npm cache clean --force
+
+    npm install
