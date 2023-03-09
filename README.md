@@ -49,3 +49,6 @@
     npm cache clean --force
 
     npm install
+### The Angular Compiler requires TypeScript >=4.4.2 and <4.6.0 but 4.9.5 was found instead
+    npm i -D typescript@4.5.4
+    
