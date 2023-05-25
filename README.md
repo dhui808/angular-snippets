@@ -1,5 +1,11 @@
 # angular-snippets
 
+### Create Angular project with Stackblitz
+[Stackblitz](https://stackblitz.com/)  
+    
+    polyfills.ngtypecheck.ts not found
+    
+    
 ### what frameworks/APIs does Angular use to consume REST APIs?
     HTTP client module
         RxJS: HTTP client is built on top of RxJS, to easily manage asynchronous data streams
