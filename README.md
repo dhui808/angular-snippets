@@ -4,7 +4,8 @@
 [Stackblitz](https://stackblitz.com/)  
     
     polyfills.ngtypecheck.ts not found
-    
+    Modify src/tsconfig.app.json and src/tsconfig.spec.json, removing polyfills.* and test.js
+    Success!
     
 ### what frameworks/APIs does Angular use to consume REST APIs?
     HTTP client module
