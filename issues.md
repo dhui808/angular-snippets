@@ -5,4 +5,11 @@
     }
     _window['ngRef'] = ref;
 
-###
+### Create Angular project with Stackblitz
+[Stackblitz](https://stackblitz.com/)  
+    
+    polyfills.ngtypecheck.ts not found
+    Modify src/tsconfig.app.json and src/tsconfig.spec.json, removing polyfills.*.ts and test.ts
+    Success!
+    Or copy src/polyfills.ts and src/styles.scss from other projects.
+    
