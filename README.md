@@ -1,13 +1,5 @@
 # angular-snippets
 
-### Create Angular project with Stackblitz
-[Stackblitz](https://stackblitz.com/)  
-    
-    polyfills.ngtypecheck.ts not found
-    Modify src/tsconfig.app.json and src/tsconfig.spec.json, removing polyfills.*.ts and test.ts
-    Success!
-    Or copy src/polyfills.ts and src/styles.scss from other projects.
-    
 ### what frameworks/APIs does Angular use to consume REST APIs?
     HTTP client module
         RxJS: HTTP client is built on top of RxJS, to easily manage asynchronous data streams
