@@ -65,7 +65,7 @@
 ### Two-way binding with [(ngModel)]
     <input id="name" [(ngModel)]="hero.name" placeholder="name">
 
-    ngModel belongs to FormsModule, which must be declared in @NgModule in app.module.ts.
+    ngModel belongs to FormsModule, which must be declared in @NgModule in AppModule class in app.module.ts.
     All components must also be declared in @NgModule 
     
     
