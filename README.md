@@ -60,4 +60,12 @@
 
 ### Interface
     In Angular, an interface defines a data object
+### Format data with pipes
+    <h2>{{hero.name | uppercase}} Details</h2>
+### Two-way binding with [(ngModel)]
+    <input id="name" [(ngModel)]="hero.name" placeholder="name">
+
+    ngModel belongs to FormsModule, which must be declared in @NgModule in app.module.ts.
+    All components must also be declared in @NgModule 
+    
     
