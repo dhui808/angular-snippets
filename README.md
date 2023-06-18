@@ -58,4 +58,6 @@
     Point folder at dist/my-app-v14
     Open the browser at http://localhost:4200
 
+### Interface
+    In Angular, an interface defines a data object
     
