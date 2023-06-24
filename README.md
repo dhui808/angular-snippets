@@ -1,21 +1,29 @@
 # angular-snippets
-
+### Angular modules/files loading sequence
+    angular.json:
+        "index": "src/index.html",
+        "main": "src/main.ts",
+    main.js is loaded first:
+        platformBrowserDynamic().bootstrapModule(AppModule)
+    The first module that is to be loaded (bootstraped) is AppModule, then is reads app.module.ts
+    app.module.ts:
+        bootstrap: [AppComponent]
+    app.component.ts:
+        selector: 'myapp-root',
+        template: `<router-outlet></router-outlet>`,
+    index.html:
+        <body><myapp-root></myapp-root></body>
+        
 ### Context Root Path
     To use /hello as the root path the Angular application:
     package.json:
-        "build": "ng build --base-href /hello/",
-        "dev": "lite-server --baseDir=dist/hello/",
-        "start": "ng serve --open"
+        No change
     angular.json:
         "outputPath": "dist/hello",
-        "baseHref": "/hello",
+        "baseHref": "/hello/",
         
     Copy dist/hello folder to Tomcat and the browser is able to load all assets from /hello folder.
-    It also works in lite-server or the  webpack-dev-server.
-
-    Note that angular.json baseHref does not have the trailing slash. This is the key that allows
-    lite-server and the  webpack-dev-server to work. Adding the trailing slash will cause these two
-    servers failing to find the assets.
+    It also works with the webpack-dev-server.
     
 ### what frameworks/APIs does Angular use to consume REST APIs?
     HTTP client module
