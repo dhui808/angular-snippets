@@ -1,3 +1,6 @@
+### Resources
+[Ngrx Essentials](https://this-is-angular.github.io/ngrx-essentials-course/docs)  
+
 ### Registering root state in app.module.ts
     @NgModule({
       imports: [
