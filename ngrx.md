@@ -1,5 +1,5 @@
 ### Resources
-[Ngrx Essentials](https://this-is-angular.github.io/ngrx-essentials-course/docs)  
+[Ngrx Essentials](https://this-is-angular.github.io/ngrx-essentials-course/docs/chapter-1)  
 
 ### Registering root state in app.module.ts
     @NgModule({
