@@ -2,6 +2,8 @@
 ### Compiler dependency error
     Delete package-lock.json and node_modules
     npm i --save --legacy--peer-deps
+### webpack bundle not shown in browser
+    add: "sourceMap":true and "optimization":false under architect -> build-> options in your angular.json.
     
 ### Angular modules/files loading sequence
     angular.json:
