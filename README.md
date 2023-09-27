@@ -1,4 +1,8 @@
 # angular-snippets
+### Compiler dependency error
+    Delete package-lock.json and node_modules
+    npm i --save --legacy--peer-deps
+    
 ### Angular modules/files loading sequence
     angular.json:
         "index": "src/index.html",
