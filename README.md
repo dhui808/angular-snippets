@@ -1,4 +1,7 @@
 # angular-snippets
+### Add a missing package
+    npm install packageName --save 
+    
 ### Compiler dependency error
     Delete package-lock.json and node_modules
     npm i --save --legacy--peer-deps
