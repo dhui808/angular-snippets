@@ -2,6 +2,7 @@
 
 ### Run Angular application with a specified environment configuration
     ng serve --configuration=production actually replaces environment.ts with environment.prod.ts.
+    Define the environment configuration in tsconfig.json, for build and serve
     
 ### Add a missing package
     npm install packageName --save 
