@@ -1,4 +1,8 @@
 # angular-snippets
+
+### Run Angular application with a specified environment configuration
+    ng serve --configuration=production actually replaces environment.ts with environment.prod.ts.
+    
 ### Add a missing package
     npm install packageName --save 
     
