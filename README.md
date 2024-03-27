@@ -1,5 +1,8 @@
 # angular-snippets
 
+### Update Angular from v11 to v12
+    ng update @angular/core@12 @angular/cli@12
+    
 ### Run Angular application with a specified environment configuration
     ng serve --configuration=production actually replaces environment.ts with environment.prod.ts.
     Define the environment configuration in tsconfig.json, for build and serve
