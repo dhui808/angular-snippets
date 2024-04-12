@@ -1,8 +1,9 @@
-### httpclient Unknown Error (site cannot be reached)
+### Angular httpClient Unknown Error (site cannot be reached)
 	error.name: HttpErrorResponse	
  	error.status: 0
-### httpclient timeout error
+### Angular httpClient timeout error
 	error.name: TimeoutError
-### httpclient HTTP 401
+ 	error.status: undefined
+### Angular httpClient HTTP 401
 	error.name: HttpErrorResponse
- 	error.status: 410
+ 	error.status: 401
