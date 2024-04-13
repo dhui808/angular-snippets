@@ -1,3 +1,7 @@
+### Timeout handling
+	Use either HttpInterceptor or RxJS.
+ 	Seems there is no built-in support in Angular.
+  
 ### Angular httpClient Unknown Error (site cannot be reached)
 	error.name: HttpErrorResponse	
  	error.status: 0
