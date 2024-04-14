@@ -1,10 +1,13 @@
 # angular-snippets
 
-### Update Angular from v11 to v12
-    ng update @angular/core@12 @angular/cli@12 --force
+### Update Angular from v16 to v17
+    ng update @angular/core@17 @angular/cli@17 --force
     
     Error: Repository is not clean. Please commit or stash any changes before updating.
     ng update --allow-dirty --force
+
+    Manually modify package.json to typescript ~5.4.3
+    npm i --force
     
 ### Run Angular application with a specified environment configuration
     ng serve --configuration=production actually replaces environment.ts with environment.prod.ts.
