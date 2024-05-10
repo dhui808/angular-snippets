@@ -11,3 +11,6 @@
 ### Angular httpClient HTTP 401
 	error.name: HttpErrorResponse
  	error.status: 401
+
+## Resources
+https://dev.to/this-is-angular/angular-error-handling-101-553  
