@@ -14,3 +14,4 @@
 
 ## Resources
 https://dev.to/this-is-angular/angular-error-handling-101-553  
+https://medium.com/@nile.bits/angular-observable-error-handling-best-practices-938982478513
